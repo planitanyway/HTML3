@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style background-color:"#87013E"> 
+	* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #F0C701;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #DB300;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #BC0156;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+	
+</head>
+<body>
+
+<h2>Autumn</h2>
+<p>Autumn, also known as fall in North American English, is one of the four temperate seasons. Outside the tropics, autumn marks the transition from summer to winter, in September or March, when the duration of daylight becomes noticeably shorter and the temperature cools considerably.</p>
+<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+<header>
+  <h2>Fall into Autumn</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Signs</a></li>
+      <li><a href="#">Holiday</a></li>
+      <li><a href="#">Food</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Signs</h1>
+	
+	<p style="color:ghostwhite"> <b> Weather and Sun Signs that Fall is on its Way:</b></p>
+	<ul><li>The air begins to feel crisper, especially in the morning.</li>
+		<li>Temperatures begin to drop.</li>
+		<li>The air begins to smell a little different.</li>
+		<li>Morning dew begins to appear.</li>
+		<li>The angle of the sun in the sky changes.</li></ul>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Give Thanks</p>
+</footer>
+
+	
+</body>
+</html>
