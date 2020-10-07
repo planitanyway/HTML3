@@ -8,42 +8,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+	
+body {
+	background-image: url('images/paris-rainy-autumn.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	}
+	
 .fall {
 background-color:#904900; 
+width: 100%;
 color:#FFDA1F;
 border: none;
 margin: 20px;
 padding: 20px;
 font-family: 
-
+	}
+	
 header {
-background-color: #F0C701;
+  background-color: #F0C701;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 	
 nav {
   float: center;
-  width: 30%;
-  height: 300px;
+  width: 100%;
+  height: 100px;
   background: #DB3300;
-  padding: 20px;
-	
-}
-	
-nav ul {
-  list-style-type: none;
-  padding: 0;
+  padding: 20px;	
 }
 	
 article {
-  float: left;
+  float: center;
   padding: 20px;
-  width: 70%;
+  width: 100%;
   background-color: #5B840B;
-  height: 300px; 
+  height: 250px; 
 }
 	
 section:after {
@@ -58,34 +62,29 @@ footer {
   text-align: center;
   color: white;
 }
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
 	 
 </style>
 </head>
 	
 <body> 
 
-<div class="city">
+<div class="fall">
 <h2>Autumn</h2>
 <p>Autumn, also known as fall in North American English, is one of the four temperate seasons. Outside the tropics, autumn marks the transition from summer to winter, in September or March, when the duration of daylight becomes noticeably shorter and the temperature cools considerably.</p>
 <p>Association with the transition from warm to cold weather, and its related status as the season of the primary harvest, has dominated its themes and popular images.</p>
 </div>
 	
 <header>
+	
   <h2>Fall into Autumn</h2>
+<span style"font-size:35px;">&#127810;&#127809;&#127810;</span>
 </header>
-
+ 
 <section>
   <nav>
-    <ul>
-      <li><a href="#">Signs</a></li>
-      <li><a href="#">Holidays</a></li>
-      <li><a href="#">Food</a></li>
-    </ul>
+      <a href="/signs/">Signs</a>
+      <a href="/holidays/">Holidays</a>
+      <a href="/food/">Food</a>
   </nav>
   
   <article>
@@ -103,7 +102,8 @@ footer {
 </section>
 
 <footer>
-  <p><b>Give Thanks</b></p>
+  <a href="https://en.wikipedia.org/wiki/Autumn/">WIKIPEDIA</a>
+  <p>&#9889;</p>
 </footer>
 
 	
